@@ -75,14 +75,20 @@ input[type="password"] {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: #4AAD33;
     color: #fff;
     font-size: 1.5em;
     text-transform: uppercase;
     position: absolute;
     left: 30px;
     border: 1px solid #90EDC5;
-    padding: 20px 145px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    width: 400px;
+    height: 30px;
+    margin: 5px 3px 3px 3px;
+
 }
 
 a:hover {
