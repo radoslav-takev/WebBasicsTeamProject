@@ -1,0 +1,304 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+#wrapper{
+    font-family: 'Noto Sans', sans-serif;
+    font-size:16px;
+}
+/* Header */
+
+header{
+    background-color: #E8E8E8;
+    height:40%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+#logo{
+    display: flex;
+    justify-content: space-between;
+
+}
+header div a img{
+    height:65px;
+    margin:10px;
+    display:inline-block;
+}
+header > div > .name{
+    margin-top:8px;
+}
+header > div > div.name > a{
+    display:flex;
+    justify-content: flex-start;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    background-color:#E1464B;
+    border: 1px solid #E1464B;
+    color:#D7E8E8;
+    font-size:0.8em;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-family: 'Noto Sans', sans-serif;
+}
+header > div > div.name > a:hover{
+    border-color: #E1464B;
+    background-color:#E8E8E8;
+    color:#460700;
+}
+header > div > div.name > p{
+    text-transform:uppercase;
+    line-height:17px;
+    margin:2px;
+    margin-top:10px;
+}
+header > nav{
+    display:flex;
+    justify-content: flex-end;
+    margin-top:28px;
+    margin-right: 20px;
+    width: 100%;
+}
+header > nav > ul {
+    padding-bottom:0px;
+}
+header nav ul li{
+    display:inline-block;
+    font-size:18px;
+}
+header > nav > ul > li > a{
+    font-family: 'Noto Sans', sans-serif;
+    color:#460700;
+    background: none;
+    text-decoration:none;
+    text-transform:uppercase;
+    margin:10px;
+    padding:5px;
+    line-height:0px;
+}
+header > nav > ul > li > a > span{
+    font-size:2.3em;
+    text-transform:none;
+}
+
+header > nav > ul > li a:hover{
+    background-color: #E1464B;
+    padding:10px;
+    border-radius:10px;
+    box-shadow: 0px 0px 4px #000;
+
+}
+header > nav > a > img{
+    width:30px;
+    margin: 0px 10px;
+}
+/* Main */
+main{
+    background-image: url('images/binary-city.jpg');
+    width: 100%;
+    min-height: 500px;
+    background-size: cover;
+}
+
+
+main div p{
+    display:block;
+    color:#000000;
+    font-size:2em;
+    width:60%;
+    line-height:2em;
+    padding-top:5%;
+    margin:0 auto;
+    text-align:center;
+}
+
+
+main div a{
+    text-decoration: none;
+    display:block;
+    width: 220px;
+    height: 35px;
+    background-color:#E1464B;
+    border: 1px solid #E1464B;
+    color:#E8E8E8;
+    font-size:1.1em;
+    border-radius: 200px;
+
+    font-family: 'Noto Sans', sans-serif;
+    margin:0 auto;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+main div a:hover{
+    border-color: white;
+    background-color:#E8E8E8;
+    color:#460700;
+
+}
+/* Footer */
+
+footer{
+    background-color:#E8E8E8;
+    display:flex;
+    color:#460700;
+
+}
+footer ul > li a{
+    font-size:13px;
+    color:#460700;
+    line-height:5px;
+    list-style-type:none;
+    text-decoration:none;
+
+    padding:3px;
+}
+.footer-list > li a:hover{
+    background-color: #E1464B;
+    border-radius:15px;
+}
+footer  > ul{
+    list-style-type:none;
+    width:30%;
+    margin: 5px 0px 0px 5px;
+    padding-bottom:10px;
+}
+
+ul.social{
+    margin:5px;
+}
+footer div > p{
+    font-size:13px;
+    font-family: 'Noto Sans', sans-serif;
+    width:100%;
+}
+#facebook{
+    height: 40px;
+    width: 40px;
+    background: url("images/mini-social-icons.png") 0 0;
+    display:inline-block;
+    border: 2px solid grey;
+    border-radius: 40px;
+    margin-left:5px;
+}
+#google{
+    height: 40px;
+    width: 40px;
+    background: url("images/mini-social-icons.png") -41px 0;
+    display:inline-block;
+    border: 2px solid grey;
+    border-radius: 40px;
+    margin-left:5px;
+}
+#twitter{
+    height: 40px;
+    width: 40px;
+    background: url("images/mini-social-icons.png") -83px 0;
+    display:inline-block;
+    border: 2px solid grey;
+    border-radius: 40px;
+    margin-left:5px;
+}
+#facebook:hover{
+    height: 40px;
+    width: 40px;
+    background: url("images/mini-social-icons.png") 0 40px;
+}
+#google:hover{
+    height: 40px;
+    width: 40px;
+    background: url("images/mini-social-icons.png") -42px 40px;
+}
+#twitter:hover{
+    height: 40px;
+    width: 40px;
+    background: url("images/mini-social-icons.png") -85px 40px;
+}
+
+
+
+@media all and (max-width: 960px){
+    header > nav{
+        margin-top:20px;
+        width: 80%;
+    }
+
+}
+
+
+@media all and (max-width: 780px){
+
+    header > nav > ul > li > a{
+        margin:5px 0px;
+    }
+
+    .social{
+        margin:5px 0px;
+    }
+
+    #facebook,#google,#twitter{
+        margin-left:0px;
+    }
+}
+
+
+@media all and (max-width: 600px){
+
+
+    header{
+        display: block;
+    }
+    #logo{
+        display:block;
+        width: 100%;
+        text-align:center;
+        margin:0px auto;
+        padding-bottom:10px;
+    }
+
+    header > nav{
+        text-align:center;
+        display:block;
+        margin:10px auto;
+
+    }
+
+    header div > a{
+        width:100%;
+        display:block;
+    }
+
+    header > div > .name {
+        width:100%;
+        margin:0 auto;
+        display:block;
+    }
+    header > div > div.name > p{
+        display:block;
+        width:45%;
+        margin:0 auto;
+    }
+    header > nav > a > img{
+        width:20%;
+        margin:0 auto;
+    }
+
+    header > div > div.name > a {
+        margin: 0 auto;
+    }
+
+    footer {
+        display:block;
+        width:100%;
+        margin:0px;
+    }
+    footer  > ul{
+        padding-top:0px;
+        margin:0 auto;
+        width:100%;
+        text-align:center;
+        display:block;
+    }
+
+}
+
