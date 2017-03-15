@@ -29,20 +29,23 @@ header > div > .name{
     margin-top:8px;
 }
 header > div > div.name > a{
+    display:flex;
+    justify-content: flex-start;
+    text-align: center;
     text-decoration: none;
-    width: 130px;
-    height: 25px;
+    width: 150px;
     background-color:#E1464B;
     border: 1px solid #E1464B;
     color:#D7E8E8;
-    font-size:0.6em;
+    font-size:0.8em;
     border-radius: 10px;
-    border: none;
-    padding: 4px 15px;
-    font-family:Maimun, dsdown, Helvetica, sans-serif;
+    padding: 10px 10px;
+    font-family: 'Noto Sans', sans-serif;
 }
 header > div > div.name > a:hover{
-    background-color:#4AAD33;
+    border-color: #E1464B;
+    background-color:#E8E8E8;
+    color:#460700;
 }
 header > div > div.name > p{
     text-transform:uppercase;
@@ -71,7 +74,7 @@ header > nav > ul > li > a{
     text-decoration:none;
     text-transform:uppercase;
     margin:10px;
-    padding:0px;
+    padding:5px;
     line-height:0px;
 }
 header > nav > ul > li > a > span{
@@ -80,7 +83,7 @@ header > nav > ul > li > a > span{
 }
 
 header > nav > ul > li a:hover{
-    background-color: #4AAD33;
+    background-color: #E1464B;
     padding:10px;
     border-radius:10px;
     box-shadow: 0px 0px 4px #000;
@@ -102,10 +105,10 @@ main{
 main div p{
     display:block;
     color:#000000;
-    font-size:1.5em;
-    width:45%;
-    line-height:1.8em;
-    padding-top:15%;
+    font-size:2em;
+    width:60%;
+    line-height:2em;
+    padding-top:5%;
     margin:0 auto;
     text-align:center;
 }
@@ -122,7 +125,7 @@ main div a{
     font-size:1.1em;
     border-radius: 200px;
 
-    font-family:dsdown, Helvetica, sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     margin:0 auto;
     padding-top: 10px;
     padding-left: 25px;
@@ -131,8 +134,7 @@ main div a:hover{
     border-color: white;
     background-color:#E8E8E8;
     color:#460700;
-    font-size: 1.2em;
-    padding: 1px;
+
 }
 /* Footer */
 
@@ -152,7 +154,7 @@ footer ul > li a{
     padding:3px;
 }
 .footer-list > li a:hover{
-    background-color: #F9AD1F;
+    background-color: #E1464B;
     border-radius:15px;
 }
 footer  > ul{
@@ -167,7 +169,7 @@ ul.social{
 }
 footer div > p{
     font-size:13px;
-    font-family:Helvetica, sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     width:100%;
 }
 #facebook{
@@ -242,6 +244,7 @@ footer div > p{
 
 @media all and (max-width: 600px){
 
+
     header{
         display: block;
     }
@@ -286,13 +289,13 @@ footer div > p{
 
     footer {
         display:block;
-        width:90%;
+        width:100%;
         margin:0px;
     }
     footer  > ul{
         padding-top:0px;
         margin:0 auto;
-        width:90%;
+        width:100%;
         text-align:center;
         display:block;
     }
