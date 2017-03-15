@@ -75,7 +75,7 @@ input[type="password"] {
 }
 
 a {
-    text-decoration: #4AAD33;
+    text-decoration: #E1464B;
     color: #fff;
     font-size: 1.5em;
     text-transform: uppercase;
@@ -92,7 +92,7 @@ a {
 }
 
 a:hover {
-    background-color: #31A831;
+    background-color: #E1464B;
 }
 
 @media all and (max-width: 700px){
