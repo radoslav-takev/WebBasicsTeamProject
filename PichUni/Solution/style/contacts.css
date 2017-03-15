@@ -94,8 +94,8 @@ header > nav > a > img{
     margin: 0px 10px;
 }
 /* Main */
-main{
-    background-image: url('images/binary-city.jpg');
+main div iframe{
+
     width: 100%;
     min-height: 500px;
     background-size: cover;
