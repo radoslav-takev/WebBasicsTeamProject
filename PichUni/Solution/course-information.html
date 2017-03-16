@@ -5,14 +5,40 @@
     <meta name="viewport" content="user-scalable=0, initial-scale=1.0">
     <title>Web Fundamentals</title>
     <link rel="stylesheet" href="style/course-information.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
+<header class="site-header">
+    <div class="logo">
+
+        <a href="index.html">
+            <img src="img/hipsterlogo_blue.png" alt="logo">
+            <h3> университет за пичове </h3>
+        </a>
+    </div>
+
+    <a href="apply.html"><button>Кандидатствай като пич!</button></a>
+
+    <nav class="site-navigation">
+        <ul>
+            <li><a href="course-information.html" target="_blank">За ПичУни</a></li>
+            <li><a href="Courses.html" target="_blank">Програма за Пичове</a></li>
+            <!--Drop-down menu with courses-->
+            <li><a href="Trainers.html" target="_blank">Пичове Гурута</a></li>
+            <li><a href="Partners.html" target="_blank">Приятели</a></li>
+            <li><a href="Contacts.html" target="_blank">Контакти</a></li>
+        </ul>
+
+    </nav>
+</header>
+
+<main class="main">
     <header class="header">
         <h1>Какво се изучава?</h1>
         <p>Обучаващите се в курса <span class="coursename">Web Fundamentals</span>  получават задълбочени познания в областта на technology and computational thinking, както и в computer-based sciences.
         </p>
     </header>
-    <main class="main">
+
         <section class="disciplines">
             <h2>По-важни изучавани дисциплини са:</h2>
             <ul class="list-disciplines">
@@ -50,11 +76,12 @@
             </ul>
         </section>
         <section class="qualifications">
-            <h5>Каква кфалификация придобивам?</h5>
+            <h5>Каква квалификация придобивам?</h5>
             <p>
                 Завършилите образователно-квалификационна степен <span class="qualifications-ttile"> "Web Fundamentalist"</span> получават професионална квалификация "Мениджър по ВСИЧКО и на ВСЕКИ в ИКТ".
             </p>
         </section>
+    <section class="lectors-graduated">
         <section class="graduated">
             <img src="img/top-management.jpg">
             <h5>Какво може да се работи след завършване?</h5>
@@ -70,6 +97,7 @@
                 Звеното, което ръководи обучението на курса е Института по "Управление на БЪДЕЩИТЕ ТЕХНОЛОГИИ" към SoftUni. В него работят преподаватели с висока квалификация.
             </p>
         </section>
+    </section>
         <section class="important">
            <ul class="important-list">
                <li class="language"><img src="img/english.jpg">
@@ -83,6 +111,49 @@
            </ul>
         </section>
     </main>
+
+<footer>
+    <ul>
+        <li>
+            <h3>ПичУни</h3>
+            <ul class="footer-list">
+                <li><a href="course-information.html" target="_blank">За ПичУни</a></li>
+                <li><a href="Courses.html" target="_blank">Програма за Пичове</a></li>
+                <li><a href="Trainers.html" target="_blank">Пичове Гурута</a></li>
+                <li><a href="Partners.html" target="_blank">Приятели</a></li>
+                <li><a href="Contacts.html" target="_blank">Контакти</a></li>
+            </ul>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <h3>Програма за Пичове</h3>
+            <ul class="footer-list">
+                <li><a href="Courses.html" target="_blank">PHP за пичове</a></li>
+                <li><a href="Courses.html" target="_blank">JavaScript за пичове</a></li>
+                <li><a href="Courses.html" target="_blank">Java за пичове</a></li>
+                <li><a href="Courses.html" target="_blank">C# за пичове</a></li>
+            </ul>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <h3>Контакти</h3>
+            <ul class="social">
+                <li id="facebook"><a href="#"></a></li>
+                <li id="google"><a href="#"></a></li>
+                <li id="twitter"><a href="#"></a></li>
+            </ul>
+            <div class="all-rights-reserved">
+                <p>&#169; 2015 - Pich University. All Rights Reserved.
+                    Pich University Learning System
+                    Designed by Pich University Team</p>
+            </div>
+        </li>
+    </ul>
+</footer>
+
+<!--
     <footer class="footer">
         <ul>
             <li>Design, Idea, Delivered by: <a href="#">Nikola Stanchev</a></li>
@@ -91,6 +162,7 @@
         </ul>
 
     </footer>
+-->
 
 
 </body>

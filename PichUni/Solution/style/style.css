@@ -1,12 +1,7 @@
-/*
-    color scheme:
-    #D7E8E8 : very light blue
-    #A8D0D9 : light blue
-    #406D94 : lighter blue
-    #2E3956 : dark blue
-    #E1464B : red
-    #E2E3DD : gray
-*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -19,13 +14,13 @@ body {
 }
 
 .site-header {
-    background-color: #E2E3DD;
+    background-color: #E8E8E8;
     color: #E1464B;
-    padding: 10px 10px 0;
+    padding: 5px 10px;
 }
 
 .logo {
-    width: 350px;
+    width: 320px;
 }
 
 .logo a {
@@ -38,15 +33,15 @@ body {
 }
 
 .logo img {
-    width: 200px;
+    width: 110px;
     position: relative;
 }
 
 .logo h3 {
     display: inline-block;
     position: absolute;
-    left: 150px;
-    top: 35px;
+    left: 110px;
+    top: 20px;
     font-family: 'Roboto Slab', serif;
     font-size: 1.4rem;
     text-transform: uppercase;
@@ -55,14 +50,14 @@ body {
 }
 
 .site-navigation {
-    margin-right: 20px;
+    margin-right: 30px;
     float: right;
 }
 
 .site-header button {
     display: inline-block;
-    vertical-align: top;
-    margin-top: 30px;
+    vertical-align: middle;
+    margin-top: 25px;
     background-color: #E1464B;
     border: 1px solid #E1464B;
     color: #D7E8E8;
@@ -104,68 +99,111 @@ body {
     border-bottom: 1px solid #E1464B;
 }
 
-main{
-    background-color: #2E3956;
+main {
+    background: url('../img/background_main-header_2.jpg') center no-repeat;
+    background-size: cover;
 }
 
-.main-header {
-    color: #D7E8E8;
-    text-align: center;
-    padding-top: 50px;
-}
-
-.main-header h1 {
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 2.2rem;
-    margin-bottom: 20px;
-}
-
-.main-header p {
-    font-size: 0.9rem;
-    display: block;
-    width: 750px;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 25px;
-}
-
-.courses {
-    margin-top: 40px;
+footer {
+    background-color:#E8E8E8;
+    color: #083B65;
     display: flex;
+    text-align: center;
+    padding: 20px 30px;
 }
 
-.course {
-    background-color: rgba(235, 26, 26, 0.7);
-    padding: 20px;
-    margin: 30px;
-    border-radius: 20px;
-    flex-grow: 1;
+footer ul {
+    list-style: none;
+    flex-wrap: wrap;
     flex-basis: 0;
+    flex-grow: 1;
+    padding: 10px 20px;
 }
 
-.course-description {
-    margin-top: 10px;
-    color: #E2E3DD;
+footer ul > li {
+    margin-bottom: 5px;
 }
 
-.course h2 {
-    color: #E2E3DD;
+footer h3 {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
 }
 
-.read-more {
-    text-align: right;
-    margin-top: 10px;
+
+footer ul > li a{
+    font-size:13px;
+    color: #083B65;
+    line-height:10px;
+    text-decoration:none;
+    padding:5px;
+    text-transform: uppercase;
+
 }
 
-.read-more a {
-    color: #E2E3DD;
-    text-decoration: none;
-    padding-bottom: 2px;
+footer ul > li a:hover {
+    color: #E1464B;
+    font-weight: 700;
 }
 
-.read-more a:hover {
-    border-bottom: 1px solid #E2E3DD;
+ul.social{
+    margin: 20px;
 }
 
+footer div > p{
+    font-size:13px;
+    font-family: 'Noto Sans', sans-serif;
+    width:100%;
+}
+
+#facebook{
+    height: 40px;
+    width: 40px;
+    background: url("images/mini-social-icons.png") -3px -3px;
+    display:inline-block;
+    border: 2px solid grey;
+    border-radius: 40px;
+    margin-left:5px;
+}
+
+#google{
+    height: 40px;
+    width: 40px;
+    background: url("images/mini-social-icons.png") -41px -2px;
+    display:inline-block;
+    border: 2px solid grey;
+    border-radius: 40px;
+    margin-left:5px;
+}
+
+#twitter{
+    height: 40px;
+    width: 40px;
+    background: url("images/mini-social-icons.png") -86px -2px;
+    display:inline-block;
+    border: 2px solid grey;
+    border-radius: 40px;
+    margin-left:5px;
+}
+
+#facebook:hover{
+    height: 40px;
+    width: 40px;
+    background: url("images/mini-social-icons.png") -3px 39px;
+    cursor: pointer;
+}
+
+#google:hover{
+    height: 40px;
+    width: 40px;
+    background: url("images/mini-social-icons.png") -42px 40px;
+    cursor: pointer;
+}
+
+#twitter:hover{
+    height: 40px;
+    width: 40px;
+    background: url("images/mini-social-icons.png") -85px 40px;
+    cursor: pointer;
+}

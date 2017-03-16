@@ -3,29 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Обучения за пичове</title>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/courses.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Roboto+Slab:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
 
 <header class="site-header">
     <div class="logo">
-        <!-- add softuni logo -->
-        <a href="#">
-            <img src="img/logo.png" alt="logo">
+
+        <a href="index.html">
+            <img src="img/hipsterlogo_blue.png" alt="logo">
             <h3> университет за пичове </h3>
         </a>
     </div>
 
-    <button>Кандидатствай като пич!</button>
+    <a href="apply.html"><button>Кандидатствай като пич!</button></a>
 
     <nav class="site-navigation">
         <ul>
-            <li><a href="#">за пичуни</a></li>
-            <li><a href="#">програма за пичове</a></li>
-            <li><a href="#">пичове гурута</a></li>
-            <li><a href="#">приятели</a></li>
-            <li><a href="#">контакти</a></li>
+            <li><a href="course-information.html" target="_blank">За ПичУни</a></li>
+            <li><a href="Courses.html" target="_blank">Програма за Пичове</a></li>
+            <!--Drop-down menu with courses-->
+            <li><a href="Trainers.html" target="_blank">Пичове Гурута</a></li>
+            <li><a href="Partners.html" target="_blank">Приятели</a></li>
+            <li><a href="Contacts.html" target="_blank">Контакти</a></li>
         </ul>
 
     </nav>
@@ -73,28 +75,48 @@
 
 </main>
 
-<footer>
-    <section class="about">
-        <h3>ПичУни</h3>
+
+    <footer>
         <ul>
-            <li><a href="#">за пичуни</a></li>
-            <li><a href="#">програма за пичове</a></li>
-            <li><a href="#">пичове гурута</a></li>
-            <li><a href="#">приятели</a></li>
-            <li><a href="#">контакти</a></li>
+            <li>
+                <h3>ПичУни</h3>
+                <ul class="footer-list">
+                    <li><a href="course-information.html" target="_blank">За ПичУни</a></li>
+                    <li><a href="Courses.html" target="_blank">Програма за Пичове</a></li>
+                    <li><a href="Trainers.html" target="_blank">Пичове Гурута</a></li>
+                    <li><a href="Partners.html" target="_blank">Приятели</a></li>
+                    <li><a href="Contacts.html" target="_blank">Контакти</a></li>
+                </ul>
+            </li>
         </ul>
-    </section>
+        <ul>
+            <li>
+                <h3>Програма за Пичове</h3>
+                <ul class="footer-list">
+                    <li><a href="Courses.html" target="_blank">PHP за пичове</a></li>
+                    <li><a href="Courses.html" target="_blank">JavaScript за пичове</a></li>
+                    <li><a href="Courses.html" target="_blank">Java за пичове</a></li>
+                    <li><a href="Courses.html" target="_blank">C# за пичове</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <h3>Контакти</h3>
+                <ul class="social">
+                    <li id="facebook"><a href="#"></a></li>
+                    <li id="google"><a href="#"></a></li>
+                    <li id="twitter"><a href="#"></a></li>
+                </ul>
+                <div class="all-rights-reserved">
+                    <p>&#169; 2015 - Pich University. All Rights Reserved.
+                        Pich University Learning System
+                        Designed by Pich University Team</p>
+                </div>
+            </li>
+        </ul>
+    </footer>
 
-
-    <section class="training">
-        <h3>Програма за пичове</h3>
-    </section>
-
-    <section class="contact">
-
-    </section>
-
-</footer>
 
 </body>
 </html>
