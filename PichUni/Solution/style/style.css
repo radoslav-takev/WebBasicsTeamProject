@@ -99,11 +99,6 @@ body {
     border-bottom: 1px solid #E1464B;
 }
 
-main {
-    background: url('../img/background_main-header_2.jpg') center no-repeat;
-    background-size: cover;
-}
-
 footer {
     background-color:#E8E8E8;
     color: #083B65;

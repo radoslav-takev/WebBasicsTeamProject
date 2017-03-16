@@ -8,6 +8,11 @@
     #E2E3DD : gray
 */
 
+main {
+    background: url('../img/background_main-header_2.jpg') center no-repeat;
+    background-size: cover;
+}
+
 .main-header {
     color: #D7E8E8;
     text-align: center;
