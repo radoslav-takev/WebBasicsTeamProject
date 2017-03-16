@@ -1,108 +1,103 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
 
-body {
-    background: url("images/binary-city.jpg") no-repeat;
-    background-color: #D7E8E8;
-    background-size: cover;
+#wrapper{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
 }
 
-#wrapper {
-    max-width: 90%;
-    margin: 0 auto;
-}
+/* Main */
 
-#forms {
-    margin-top: 15%;
-    margin-left: 15%;
-}
-
-form {
-    border: 1px solid #D7E8E8;
-    border-radius: 5%;
-    background-color: #2E3956;
-    width: 470px;
-    height: 400px;
-    display: inline-block;
-    margin: 30px;
-    position: relative;
-}
-
-#first {
-    float: left;
-}
-
-h3 {
+main{
+    min-height: 500px;
     text-align: center;
-    color: white;
-    font-size: 1.5em;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="password"] {
-    margin-left: 7%;
-    padding-left: 5px;
-}
+/* Footer */
 
-input[type="text"],
-input[type="email"],
-input[type="password"]
-{
-    width: 400px;
-    height: 30px;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    padding-left: 5px;
-    font-size: 1.2em;
-    border: none;
-    text-indent: 35px;
-}
-
-input[type="text"] {
-    background: url(images/name.svg) #fff no-repeat;
-    background-size: 30px 30px;
-    text-indent: 35px;
-}
-
-input[type="email"] {
-    background: url(images/email.svg) #fff no-repeat;
-    background-size: 30px 30px;
-}
-
-input[type="password"] {
-    background: url(images/password.png) #fff no-repeat;
-    background-size: 30px 30px;
-}
-
-a {
-    text-decoration: #E1464B;
-    color: #fff;
-    font-size: 1.5em;
-    text-transform: uppercase;
-    position: absolute;
-    left: 30px;
-    border: 1px solid #90EDC5;
-    border-radius: 5px;
-    padding: 5px;
-    text-align: center;
-    width: 400px;
-    height: 30px;
-    margin: 5px 3px 3px 3px;
+@media all and (max-width: 960px){
+    header > nav{
+        margin-top:20px;
+        width: 80%;
+    }
 
 }
 
-a:hover {
-    background-color: #E1464B;
-}
 
-@media all and (max-width: 700px){
-    #forms {
-        margin-left: 5%;
+@media all and (max-width: 780px){
+
+    header > nav > ul > li > a{
+        margin:5px 0px;
+    }
+
+    .social{
+        margin:5px 0px;
+    }
+
+    #facebook,#google,#twitter{
+        margin-left:0px;
     }
 }
+
 
 @media all and (max-width: 600px){
-    #forms {
-        margin-left: 0;
+
+
+    header{
+        display: block;
     }
+    #logo{
+        display:block;
+        width: 100%;
+        text-align:center;
+        margin:0px auto;
+        padding-bottom:10px;
+    }
+
+    header > nav{
+        text-align:center;
+        display:block;
+        margin:10px auto;
+
+    }
+
+    header div > a{
+        width:100%;
+        display:block;
+    }
+
+    header > div > .name {
+        width:100%;
+        margin:0 auto;
+        display:block;
+    }
+    header > div > div.name > p{
+        display:block;
+        width:45%;
+        margin:0 auto;
+    }
+    header > nav > a > img{
+        width:20%;
+        margin:0 auto;
+    }
+
+    header > div > div.name > a {
+        margin: 0 auto;
+    }
+
+    footer {
+        display:block;
+        width:100%;
+        margin:0px;
+    }
+    footer  > ul{
+        padding-top:0px;
+        margin:0 auto;
+        width:100%;
+        text-align:center;
+        display:block;
+    }
+
 }
+
