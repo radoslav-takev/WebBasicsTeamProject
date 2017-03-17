@@ -1,0 +1,28 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
+
+#wrapper{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+}
+
+/* Main */
+main {
+    background: url('../img/background_main-header_2.jpg') center no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    text-align: center;
+}
+
+main div p{
+    display:block;
+    color:#fff;
+    font-size:2em;
+    width:60%;
+    line-height:2em;
+    padding-top:5%;
+    margin:0 auto;
+    text-align:center;
+    font-weight: 700;
+}

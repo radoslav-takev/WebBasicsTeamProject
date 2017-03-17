@@ -9,14 +9,16 @@
 
 /* Main */
 
-main{
+main {
+    background: url('../img/background_main-header_2.jpg') center no-repeat;
+    background-size: cover;
     min-height: 500px;
     text-align: center;
 }
 form {
     border: 1px solid #083B65;
     border-radius: 5%;
-    background-color: rgba(70, 175, 143, 0.5);
+    background-color: #E8E8E8;
     width: 470px;
     height: 400px;
     display: inline-block;
@@ -31,7 +33,7 @@ form {
 form h3 {
 
     text-align: center;
-    color: white;
+    color: #083B65;
     font-size: 1.5em;
     display: block;
     -webkit-margin-before: 1em;
