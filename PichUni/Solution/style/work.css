@@ -14,15 +14,45 @@ main {
     min-height: 500px;
     text-align: center;
 }
-
-main div p{
+#students, #comanies {
+    border: 1px solid #083B65;
+    border-radius: 5%;
+    background-color: #E8E8E8;
+    width: 40%;
+    height: 400px;
+    display: inline-block;
+    margin: 10px 5px 5px 5px;
+    position: relative;
+}
+main h2{
     display:block;
-    color:#fff;
-    font-size:2em;
+    color: white;
+    font-size:1em;
     width:60%;
     line-height:2em;
-    padding-top:5%;
     margin:0 auto;
     text-align:center;
     font-weight: 700;
+}
+main p {
+    display: inline-block;
+}
+button {
+    display: block;
+    vertical-align: middle;
+    margin: 5px auto;
+    background-color: #E1464B;
+    border: 1px solid #E1464B;
+    color: #D7E8E8;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 10px;
+    padding: 5px 10px;
+    outline: none;
+}
+button:hover{
+    color: #E1464B;
+    background: none;
+    cursor: pointer;
 }
