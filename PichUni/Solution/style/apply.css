@@ -22,14 +22,11 @@ form {
     width: 470px;
     height: 400px;
     display: inline-block;
-    margin: 30px;
+    margin: 40px;
     position: relative;
-
 }
 
-#first {
-    float: left;
-}
+
 form h3 {
 
     text-align: center;
@@ -41,6 +38,9 @@ form h3 {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     font-weight: bold;
+}
+form p {
+    margin: 0px 0px 34px;
 }
 input[type="text"],
 input[type="email"],
@@ -58,6 +58,7 @@ input[type="password"]
     margin-top: 10px;
     margin-bottom: 15px;
     padding-left: 5px;
+
     font-size: 1.2em;
     border: none;
     text-indent: 35px;
@@ -65,20 +66,38 @@ input[type="password"]
 
 input[type="text"] {
     background: url(images/name.svg) #fff no-repeat;
-    background-size: 30px 30px;
+    background-size: 28px 28px;
     text-indent: 35px;
 }
 
 input[type="email"] {
     background: url(images/email.svg) #fff no-repeat;
-    background-size: 30px 30px;
+    background-size: 28px 28px;
 }
 
 input[type="password"] {
     background: url(images/password.png) #fff no-repeat;
-    background-size: 30px 30px;
+    background-size: 28px 28px;
 }
-
+ main a {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 25px;
+    background-color: #E1464B;
+    border: 1px solid #E1464B;
+    color: #D7E8E8;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 10px;
+    padding: 5px 10px;
+    outline: none;
+}
+ main a:hover {
+     color: #E1464B;
+     background: none;
+     cursor: pointer;
+ }
 /* Footer */
 
 @media all and (max-width: 960px){
