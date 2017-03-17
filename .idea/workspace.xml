@@ -18,11 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PichUni/Solution/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="67" column="28" lean-forward="false" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
+            <state relative-caret-position="748">
+              <caret line="49" column="82" lean-forward="false" selection-start-line="49" selection-start-column="82" selection-end-line="49" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -31,8 +31,8 @@
       <file leaf-file-name="contacts.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PichUni/Solution/contacts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="824">
-              <caret line="92" column="13" lean-forward="false" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+            <state relative-caret-position="384">
+              <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -41,8 +41,8 @@
       <file leaf-file-name="apply.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PichUni/Solution/apply.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1022">
-              <caret line="93" column="13" lean-forward="false" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
+            <state relative-caret-position="-484">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -51,18 +51,18 @@
       <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PichUni/Solution/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="75" column="16" lean-forward="true" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
+            <state relative-caret-position="780">
+              <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="courses.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="courses.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PichUni/Solution/courses.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="102" column="8" lean-forward="true" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+            <state relative-caret-position="462">
+              <caret line="93" column="39" lean-forward="true" selection-start-line="93" selection-start-column="39" selection-end-line="93" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -71,8 +71,8 @@
       <file leaf-file-name="course-information.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PichUni/Solution/course-information.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="137" column="9" lean-forward="true" selection-start-line="137" selection-start-column="9" selection-end-line="137" selection-end-column="9" />
+            <state relative-caret-position="538">
+              <caret line="151" column="13" lean-forward="true" selection-start-line="151" selection-start-column="13" selection-end-line="151" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -104,12 +104,12 @@
         <option value="$PROJECT_DIR$/PichUni/Solution/css/style.css" />
         <option value="$PROJECT_DIR$/PichUni/Solution/style/apply.css" />
         <option value="$PROJECT_DIR$/PichUni/Solution/style/contacts.css" />
+        <option value="$PROJECT_DIR$/PichUni/Solution/apply.html" />
         <option value="$PROJECT_DIR$/PichUni/Solution/index.html" />
         <option value="$PROJECT_DIR$/PichUni/Solution/contacts.html" />
-        <option value="$PROJECT_DIR$/PichUni/Solution/apply.html" />
-        <option value="$PROJECT_DIR$/PichUni/Solution/courses.html" />
-        <option value="$PROJECT_DIR$/PichUni/Solution/course-information.html" />
         <option value="$PROJECT_DIR$/PichUni/Solution/about.html" />
+        <option value="$PROJECT_DIR$/PichUni/Solution/course-information.html" />
+        <option value="$PROJECT_DIR$/PichUni/Solution/courses.html" />
       </list>
     </option>
   </component>
@@ -300,12 +300,12 @@
       <updated>1489433908960</updated>
       <workItem from="1489433910341" duration="450000" />
       <workItem from="1489471284880" duration="14222000" />
-      <workItem from="1489691323741" duration="4575000" />
+      <workItem from="1489691323741" duration="5234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19247000" />
+    <option name="totallyTimeSpent" value="19906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1932" height="1092" extended-state="0" />
@@ -446,50 +446,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PichUni/Solution/courses.html">
+    <entry file="file://$PROJECT_DIR$/PichUni/Solution/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="102" column="8" lean-forward="true" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PichUni/Solution/course-information.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="137" column="9" lean-forward="true" selection-start-line="137" selection-start-column="9" selection-end-line="137" selection-end-column="9" />
+        <state relative-caret-position="748">
+          <caret line="49" column="82" lean-forward="false" selection-start-line="49" selection-start-column="82" selection-end-line="49" selection-end-column="82" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PichUni/Solution/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="824">
-          <caret line="92" column="13" lean-forward="false" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+        <state relative-caret-position="384">
+          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PichUni/Solution/apply.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1022">
-          <caret line="93" column="13" lean-forward="false" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
+        <state relative-caret-position="-484">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PichUni/Solution/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="75" column="16" lean-forward="true" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
+        <state relative-caret-position="780">
+          <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PichUni/Solution/index.html">
+    <entry file="file://$PROJECT_DIR$/PichUni/Solution/course-information.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="67" column="28" lean-forward="false" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
+        <state relative-caret-position="538">
+          <caret line="151" column="13" lean-forward="true" selection-start-line="151" selection-start-column="13" selection-end-line="151" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PichUni/Solution/courses.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="93" column="39" lean-forward="true" selection-start-line="93" selection-start-column="39" selection-end-line="93" selection-end-column="39" />
           <folding />
         </state>
       </provider>
