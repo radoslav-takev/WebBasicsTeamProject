@@ -17,41 +17,49 @@ body {
     background-color: #E8E8E8;
     color: #E1464B;
     padding: 5px 10px;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .logo {
-    width: 320px;
+    flex-basis: 270px;
+    flex-grow: 0;
 }
 
 .logo a {
     color: #083B65;
-}
-
-.logo, .site-navigation {
+    text-decoration: none;
     display: inline-block;
-    vertical-align: top;
 }
 
 .logo img {
     width: 110px;
-    position: relative;
+    float: left;
 }
 
 .logo h3 {
-    display: inline-block;
-    position: absolute;
-    left: 110px;
-    top: 20px;
+    float: right;
     font-family: 'Roboto Slab', serif;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     text-transform: uppercase;
-    width: 200px;
+    width: 140px;
     text-align: center;
+    margin-top: 10px;
+}
+
+.site-navigation .fa-bars{
+    border: 3px solid #E1464B;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 1.3em;
+    display: none;
+    text-align: center;
+    width: 45px;
 }
 
 .site-navigation {
-    margin-right: 30px;
-    float: right;
+    margin-right: 25px;
+    flex-grow: 1;
 }
 
 .site-header button {
@@ -61,12 +69,13 @@ body {
     background-color: #E1464B;
     border: 1px solid #E1464B;
     color: #D7E8E8;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: bold;
     font-family: 'Noto Sans', sans-serif;
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 5px 7px;
     outline: none;
+    margin-left: 5px;
 }
 
 .site-header button:hover {
@@ -77,13 +86,13 @@ body {
 
 .site-navigation ul {
     list-style: none;
-    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
     margin-top: 20px;
 }
 
 .site-navigation ul li {
-    display: inline-block;
-    padding: 10px;
+    padding: 5px;
 }
 
 .site-navigation ul li a {
@@ -103,14 +112,15 @@ footer {
     background-color:#E8E8E8;
     color: #083B65;
     display: flex;
-    text-align: center;
+    flex-flow: row wrap;
+    justify-content: center;
     padding: 20px 30px;
 }
 
 footer ul {
     list-style: none;
     flex-wrap: wrap;
-    flex-basis: 0;
+    flex-basis: 250px;
     flex-grow: 1;
     padding: 10px 20px;
 }
@@ -132,7 +142,6 @@ footer ul > li a{
     color: #083B65;
     line-height:10px;
     text-decoration:none;
-    padding:5px;
     text-transform: uppercase;
 
 }
@@ -146,7 +155,7 @@ ul.social{
     margin: 20px;
 }
 
-footer div > p{
+footer div > p {
     font-size:13px;
     font-family: 'Noto Sans', sans-serif;
     width:100%;
@@ -201,4 +210,21 @@ footer div > p{
     width: 40px;
     background: url("images/mini-social-icons.png") -85px 40px;
     cursor: pointer;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .site-header {
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .site-navigation ul {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+
 }
