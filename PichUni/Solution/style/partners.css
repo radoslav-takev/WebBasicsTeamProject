@@ -25,7 +25,7 @@ main  h1{
     font-weight: 700;
 }
 .partner-type {
-    color: white;
+    color: black;
     display: inline-block;
     list-style: none;
     border: 3px solid white;
@@ -34,4 +34,19 @@ main  h1{
     height: 400px;
     margin: 10px;
     font-size: 20px;
+}
+#top{
+    background-image: url("images/medal1.jpg");
+    background-size: 350px 400px;
+    background-repeat: no-repeat;
+}
+#special{
+    background-image: url("images/medal2.jpg");
+    background-size: 350px 400px;
+    background-repeat: no-repeat;
+}
+#regular{
+    background-image: url("images/medal3.jpg");
+    background-size: 350px 400px;
+    background-repeat: no-repeat;
 }
