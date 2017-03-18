@@ -68,17 +68,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="partners.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="partners.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PichUni/Solution/partners.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+            <state relative-caret-position="220">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="partners.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="partners.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PichUni/Solution/style/partners.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="748">
@@ -125,8 +125,8 @@
         <option value="$PROJECT_DIR$/PichUni/Solution/style/style.css" />
         <option value="$PROJECT_DIR$/PichUni/Solution/style/work.css" />
         <option value="$PROJECT_DIR$/PichUni/Solution/work.html" />
-        <option value="$PROJECT_DIR$/PichUni/Solution/partners.html" />
         <option value="$PROJECT_DIR$/PichUni/Solution/style/partners.css" />
+        <option value="$PROJECT_DIR$/PichUni/Solution/partners.html" />
       </list>
     </option>
   </component>
@@ -321,12 +321,12 @@
       <workItem from="1489433910341" duration="450000" />
       <workItem from="1489471284880" duration="14222000" />
       <workItem from="1489691323741" duration="15819000" />
-      <workItem from="1489825393918" duration="4653000" />
+      <workItem from="1489825393918" duration="5270000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35144000" />
+    <option name="totallyTimeSpent" value="35761000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1932" height="1092" extended-state="0" />
@@ -588,18 +588,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PichUni/Solution/partners.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PichUni/Solution/style/partners.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PichUni/Solution/partners.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
