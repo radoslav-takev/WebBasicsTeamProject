@@ -14,7 +14,7 @@ main {
     min-height: 500px;
     text-align: center;
 }
-#students, #comanies {
+section {
     border: 1px solid #083B65;
     border-radius: 5%;
     background-color: #E8E8E8;
@@ -30,17 +30,23 @@ main h2{
     font-size:1em;
     width:60%;
     line-height:2em;
-    margin:0 auto;
+    margin:0px auto;
     text-align:center;
     font-weight: 700;
+
 }
 main p {
+    margin: 10px auto;
     display: inline-block;
+}
+main article p {
+    margin: 10px auto;
+    display: block;
 }
 button {
     display: block;
     vertical-align: middle;
-    margin: 5px auto;
+    margin: 10px auto;
     background-color: #E1464B;
     border: 1px solid #E1464B;
     color: #D7E8E8;
