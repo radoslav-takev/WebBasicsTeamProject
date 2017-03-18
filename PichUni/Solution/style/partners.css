@@ -15,14 +15,23 @@ main {
     text-align: center;
 }
 
-main div p{
+main  h1{
     display:block;
     color:#fff;
-    font-size:2em;
     width:60%;
-    line-height:2em;
-    padding-top:5%;
+    padding-top:1%;
     margin:0 auto;
     text-align:center;
     font-weight: 700;
+}
+.partner-type {
+    color: white;
+    display: inline-block;
+    list-style: none;
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 23%;
+    height: 400px;
+    margin: 10px;
+    font-size: 20px;
 }
