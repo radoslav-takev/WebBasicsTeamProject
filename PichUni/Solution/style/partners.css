@@ -39,3 +39,7 @@ section h3 {
 section p {
     color: white;
 }
+section:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
