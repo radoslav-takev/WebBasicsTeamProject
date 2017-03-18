@@ -61,8 +61,8 @@
       <file leaf-file-name="work.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PichUni/Solution/style/work.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="934">
-              <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+            <state relative-caret-position="670">
+              <caret line="49" column="22" lean-forward="true" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -71,8 +71,8 @@
       <file leaf-file-name="partners.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PichUni/Solution/partners.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="41" column="65" lean-forward="false" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
+            <state relative-caret-position="924">
+              <caret line="54" column="58" lean-forward="false" selection-start-line="54" selection-start-column="58" selection-end-line="54" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -81,8 +81,8 @@
       <file leaf-file-name="partners.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PichUni/Solution/style/partners.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+            <state relative-caret-position="638">
+              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -321,15 +321,15 @@
       <workItem from="1489433910341" duration="450000" />
       <workItem from="1489471284880" duration="14222000" />
       <workItem from="1489691323741" duration="15819000" />
-      <workItem from="1489825393918" duration="6680000" />
+      <workItem from="1489825393918" duration="10365000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37171000" />
+    <option name="totallyTimeSpent" value="40856000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1932" height="1092" extended-state="0" />
+    <frame x="-9" y="-9" width="1932" height="1092" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14838035" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -548,14 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PichUni/Solution/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PichUni/Solution/style/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
@@ -572,6 +564,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PichUni/Solution/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PichUni/Solution/work.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
@@ -580,26 +580,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PichUni/Solution/style/work.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="934">
-          <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/PichUni/Solution/style/images/medal1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PichUni/Solution/partners.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="41" column="65" lean-forward="false" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
+        <state relative-caret-position="924">
+          <caret line="54" column="58" lean-forward="false" selection-start-line="54" selection-start-column="58" selection-end-line="54" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PichUni/Solution/style/work.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="49" column="22" lean-forward="true" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PichUni/Solution/style/partners.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        <state relative-caret-position="638">
+          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
           <folding />
         </state>
       </provider>
