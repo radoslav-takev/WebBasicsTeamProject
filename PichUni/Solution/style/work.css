@@ -69,16 +69,19 @@ section:hover {
 @media all and (max-width: 1024px){
     #students, #companies {
         display: block;
-        width: calc(50% - 10px);
+        width: 50%;
         margin: 0 auto;
-        height: 350px;
+
     }
+
+
 }
 @media all and (max-width: 780px){
     #students, #companies {
         display: block;
-        width: calc(50% - 10px);
+        width: 70%;
         margin: 0 auto;
-        height: 350px;
+
     }
+
 }
