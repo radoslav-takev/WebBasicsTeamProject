@@ -11,9 +11,10 @@
 body {
     font-family: 'Noto Sans', sans-serif;
     font-size: 12px;
+    margin: 0;
 }
 
-.site-header {
+.site-navigation {
     background-color: #E8E8E8;
     color: #E1464B;
     padding: 5px 10px;
@@ -35,6 +36,7 @@ body {
 .logo img {
     width: 110px;
     float: left;
+    height: 95px;
 }
 
 .logo h3 {
@@ -55,11 +57,16 @@ body {
     display: none;
     text-align: center;
     width: 45px;
+    height: 37px;
 }
 
-.site-navigation {
+.site-navigation ul {
     margin-right: 25px;
     flex-grow: 1;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
 }
 
 .site-header button {
@@ -82,13 +89,6 @@ body {
     color: #E1464B;
     background: none;
     cursor: pointer;
-}
-
-.site-navigation ul {
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 20px;
 }
 
 .site-navigation ul li {
@@ -214,17 +214,62 @@ footer div > p {
 
 
 @media screen and (max-width: 1024px) {
-    .site-header {
-        flex-flow: row wrap;
+
+    .site-navigation {
         justify-content: center;
     }
-
     .site-navigation ul {
         justify-content: center;
     }
 }
 
 @media screen and (max-width: 640px) {
+    .site-navigation  ul {
+        display: none;
+    }
 
+    .site-navigation {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 
+    .site-navigation .fa-bars {
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .site-navigation {
+        padding-bottom: 20px;
+        justify-content: center;
+    }
+
+    .logo h3 {
+        width: 160px;
+    }
+
+    .site-navigation:hover > ul {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .site-navigation .logo {
+        flex: 1 100%;
+    }
+
+    .logo > a {
+      display: flex;
+        justify-content: center;
+    }
+
+    .site-navigation:hover > ul {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .site-navigation ul li {
+        flex: 1 100%;
+    }
 }
