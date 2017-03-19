@@ -257,10 +257,9 @@ img {
 }
 
 .graduated h5 {
-    margin: 10px;
+    margin-bottom: 10px;
     color: #d06767;
     font-size: 1.2rem;
-
 }
 
 .lectors p, .graduated p {
@@ -379,23 +378,14 @@ footer ul li a {
 
     .header {
         display: block;
-        width: 80%;
         height: auto;
         text-align: center;
         margin: 0;
         padding: 0;
     }
-    .footer {
-        display: block;
-        width: 80%;
-        height: auto;
-        text-align: center;
-        margin: 0;
-        padding: 0;
-    }
+
     .disciplines {
         display: block;
-        width: 80%;
         height: auto;
         text-align: center;
         margin: 0;
@@ -403,31 +393,38 @@ footer ul li a {
 }
     .important {
         display: block;
-        width: 80%;
         height: auto;
         text-align: center;
         margin: 0;
-        padding: 0;
+        padding-bottom: 20px;
+    }
+
+    .important .income {
+        margin-left: 0px;
+    }
+
+    .lectors-graduated {
+        padding-top: 15px;
     }
     .lectors {
         display: block;
-        width: 80%;
         height: auto;
         text-align: center;
         margin: 0;
         padding: 0;
+        width: 100%;
     }
     .graduated {
+        width: 100%;
         display: block;
-        width: 80%;
         height: auto;
         text-align: center;
         margin: 0;
         padding: 0;
     }
+
     .qualifications {
         display: block;
-        width: 80%;
         height: auto;
         text-align: center;
         margin: 0;
@@ -465,10 +462,8 @@ footer ul li a {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        width: 50%;
         height: auto;
         text-align: center;
-        margin: 10px;
         padding: 10px;
     }
     .important {
@@ -484,7 +479,7 @@ footer ul li a {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        width: 50%;
+        width: 100%;
         height: auto;
         text-align: center;
         margin: 10px;
@@ -494,16 +489,28 @@ footer ul li a {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        width: 50%;
+        width: 100%;
         height: auto;
         text-align: center;
         padding: 10px;
     }
+
+    .graduated p, .lectors p {
+        margin-left: 0;
+    }
+
+    .graduated img {
+        display: none;
+    }
+
+    .lectors img {
+        display: none;
+    }
+
     .qualifications {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        width: 50%;
         height: auto;
         text-align: center;
         padding: 10px;
