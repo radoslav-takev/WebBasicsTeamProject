@@ -70,9 +70,11 @@ section:hover {
     #students, #companies {
         display: block;
         width: 50%;
+        padding: 20px 20px 20px;
         margin: 0 auto;
 
     }
+
 
 
 }
@@ -80,8 +82,8 @@ section:hover {
     #students, #companies {
         display: block;
         width: 70%;
+        padding: 20px 20px 20px;
         margin: 0 auto;
-
     }
 
 }
