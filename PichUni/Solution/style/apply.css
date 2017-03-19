@@ -14,12 +14,22 @@ main {
     background-size: cover;
     min-height: 500px;
     text-align: center;
+
 }
+
+#forms {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
 form {
     border: 1px solid #083B65;
-    border-radius: 5%;
+    border-radius: 20px;
     background-color: #E8E8E8;
-    width: 470px;
+    flex-basis: 470px;
+    flex-grow: 0;
+    flex-shrink: 1;
     height: 400px;
     display: inline-block;
     margin: 40px;
@@ -53,7 +63,7 @@ input[type="text"],
 input[type="email"],
 input[type="password"]
 {
-    width: 400px;
+    width: 80%;
     height: 30px;
     margin-top: 10px;
     margin-bottom: 15px;
@@ -100,6 +110,11 @@ input[type="password"] {
  }
 /* Footer */
 
+
+@media screen and (max-width: 480px) {
+
+}
+/* Header and footer media queries are in style.css
 @media all and (max-width: 960px){
     header > nav{
         margin-top:20px;
@@ -184,4 +199,6 @@ input[type="password"] {
     }
 
 }
+
+*/
 

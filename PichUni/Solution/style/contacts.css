@@ -18,7 +18,7 @@ main div iframe {
 
 /* Footer */
 
-/*
+/* Header and footer media queries are in style.css
 @media all and (max-width: 780px){
 
     .social{
