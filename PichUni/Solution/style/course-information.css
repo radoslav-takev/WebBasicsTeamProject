@@ -440,10 +440,9 @@ footer ul li a {
         display: flex;
         flex-wrap: wrap;
          justify-content: space-around;
-        width: 50%;
+        width: 100%;
         height: 250px;
         text-align: center;
-        margin: 10px;
         padding: 10px;
     }
     .header h1 {
@@ -479,7 +478,6 @@ footer ul li a {
         width: 50%;
         height: auto;
         text-align: center;
-        margin: 10px;
         padding: 10px;
     }
     .lectors {
@@ -499,7 +497,6 @@ footer ul li a {
         width: 50%;
         height: auto;
         text-align: center;
-        margin: 10px;
         padding: 10px;
     }
     .qualifications {
@@ -509,7 +506,6 @@ footer ul li a {
         width: 50%;
         height: auto;
         text-align: center;
-        margin: 10px;
         padding: 10px;
     }
 }
@@ -517,80 +513,69 @@ footer ul li a {
 @media screen and (max-width: 480px) {
 
     .header  {
-        font-size: 1.4em;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        width: 300px;
+        width: 100%;
         height: auto;
         text-align: center;
-        margin: 10px;
-        padding: 10px;
     }
+
     .header h1 {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        width: 50%;
+        width: 100%;
     }
 
     .disciplines img {
         display: none;
     }
+
     .disciplines {
         display: flex;
-        flex-wrap: wrap;
         flex-direction: column;
-        width: 300px;
-        height: auto;
+        width: 100%;
         text-align: center;
-        margin: 10px;
-        padding: 10px;
     }
+
     .disciplines .list-disciplines li  {
         margin: 0;
         padding: 0;
-        height: 180px;
+        height: auto;
     }
+
     .disciplines .list-disciplines p, h1, h2, h3, h4, h5 {
-        font-size: 1.4em;
         display: flex;
-        flex-wrap: wrap;
         flex-direction: column;
-        height: 300px;
         text-align: center;
         margin: 10px;
         padding: 10px;
     }
+
+    .qualifications p {
+        width: 100%;
+    }
+
     .important img {
         display: none;
     }
+
     .important {
         display: flex;
-        flex-wrap: wrap;
         flex-direction: column;
-        width: 300px;
+        width: 100%;
         height: auto;
         text-align: center;
-        margin: 10px;
         padding: 10px;
     }
-    .important .important-list {
-        height: 690px;
-    }
+
     .important .important-list li {
-        height: 260px;
-        width: 280px;
+        width: 100%;
         text-align: center;
         margin: 0;
         padding: 0;
     }
+
     .important p, h1, h2, h3, h4, h5 {
-        font-size: 1.2em;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        height: 300px;
+        height: auto;
         text-align: center;
         margin: 10px;
         padding: 10px;
@@ -600,16 +585,14 @@ footer ul li a {
     }
     .lectors {
         display: flex;
-        flex-wrap: wrap;
         flex-direction: column;
-        width: 300px;
+        width: 100%;
         height: auto;
         text-align: center;
         margin: 10px;
         padding: 10px;
     }
     .lectors p, h1, h2, h3, h4, h5 {
-        font-size: 1.4em;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -621,18 +604,16 @@ footer ul li a {
     .graduated img {
         display: none;
     }
+
     .graduated {
         display: flex;
-        flex-wrap: wrap;
         flex-direction: column;
-        width: 300px;
+        width: 100%;
         height: auto;
         text-align: center;
-        margin: 10px;
         padding: 10px;
     }
     .graduated p, h1, h2, h3, h4, h5 {
-        font-size: 1.4em;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -644,37 +625,22 @@ footer ul li a {
     .qualifications img {
         display: none;
     }
+
     .qualifications {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        width: 300px;
+        width: 100%;
         height: auto;
         text-align: center;
-        margin: 10px;
         padding: 10px;
     }
+
     .qualifications p, h1, h2, h3, h4, h5 {
-        font-size: 1.4em;
         display: flex;
-        flex-wrap: wrap;
         flex-direction: column;
         height: auto;
         text-align: center;
-        margin: 10px;
         padding: 10px;
     }
-    .footer {
-        font-size: 1.4em;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        width: 300px;
-        height: 250px;
-        text-align: center;
-        margin: 10px;
-        padding: 10px;
-    }
+
 }
 
 
