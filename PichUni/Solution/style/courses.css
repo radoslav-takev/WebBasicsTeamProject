@@ -39,6 +39,8 @@ main {
 .courses {
     margin-top: 40px;
     display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 .course {
@@ -46,9 +48,9 @@ main {
     padding: 20px;
     margin: 30px;
     border-radius: 20px;
-    flex-basis: 0;
+    flex-basis: 190px;
     flex-grow: 1;
-    flex-wrap: wrap;
+    flex-shrink: 1;
 }
 
 .course-description {
@@ -73,4 +75,42 @@ main {
 
 .read-more a:hover {
     border-bottom: 1px solid #E2E3DD;
+}
+
+@media screen and (max-width: 1024px)  {
+    .course {
+        flex-basis: 400px;
+        flex-shrink: 1;
+        flex-grow: 1;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .main-header p {
+        width: 100%;
+    }
+
+    .main-header {
+        padding: 10px 30px;
+    }
+
+    .course {
+        flex-basis: 300px;
+        flex-shrink: 0;
+        flex-grow: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .courses {
+        margin-top: 0px;
+    }
+
+    .main-header {
+        padding: 10px;
+    }
+
+    .course {
+        flex-shrink: 1;
+    }
 }

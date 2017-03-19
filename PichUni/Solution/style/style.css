@@ -271,5 +271,6 @@ footer div > p {
 
     .site-navigation ul li {
         flex: 1 100%;
+        text-align: center;
     }
 }
