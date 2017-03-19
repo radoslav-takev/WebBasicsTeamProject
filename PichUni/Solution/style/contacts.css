@@ -18,20 +18,8 @@ main div iframe {
 
 /* Footer */
 
-@media all and (max-width: 960px){
-    header > nav{
-        margin-top:20px;
-        width: 80%;
-    }
-
-}
-
-
+/*
 @media all and (max-width: 780px){
-
-    header > nav > ul > li > a{
-        margin:5px 0px;
-    }
 
     .social{
         margin:5px 0px;
@@ -102,4 +90,5 @@ main div iframe {
     }
 
 }
+*/
 
