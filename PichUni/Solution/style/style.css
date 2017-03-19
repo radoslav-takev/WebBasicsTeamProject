@@ -60,7 +60,7 @@ body {
     height: 37px;
 }
 
-.site-navigation ul {
+.navigation {
     margin-right: 25px;
     flex-grow: 1;
     list-style: none;
@@ -91,11 +91,11 @@ body {
     cursor: pointer;
 }
 
-.site-navigation ul li {
+.navigation li {
     padding: 5px;
 }
 
-.site-navigation ul li a {
+.navigation li a {
     text-decoration: none;
     color: #E1464B;
     text-transform: uppercase;
@@ -104,7 +104,7 @@ body {
     font-size: 0.8rem;
 }
 
-.site-navigation ul li a:hover {
+.navigation li a:hover {
     border-bottom: 1px solid #E1464B;
 }
 
@@ -218,19 +218,27 @@ footer div > p {
     .site-navigation {
         justify-content: center;
     }
-    .site-navigation ul {
+    .navigation {
         justify-content: center;
     }
 }
 
 @media screen and (max-width: 640px) {
-    .site-navigation  ul {
+    .navigation {
         display: none;
     }
 
     .site-navigation {
         margin-top: 0;
         margin-bottom: 0;
+    }
+
+    ul.navigation li {
+        flex: 0 0;
+    }
+
+    .navigation {
+        justify-content: space-between;
     }
 
     .site-navigation .fa-bars {
@@ -248,13 +256,13 @@ footer div > p {
         width: 160px;
     }
 
-    .site-navigation:hover > ul {
-        display: flex;
-        justify-content: space-between;
-    }
 }
 
 @media screen and (max-width: 550px){
+    ul.navigation {
+        flex: 1 100%;
+    }
+
     .site-navigation .logo {
         flex: 1 100%;
     }
@@ -264,12 +272,7 @@ footer div > p {
         justify-content: center;
     }
 
-    .site-navigation:hover > ul {
-        display: flex;
-        flex-flow: row wrap;
-    }
-
-    .site-navigation ul li {
+    .site-navigation ul.navigation li {
         flex: 1 100%;
         text-align: center;
     }
