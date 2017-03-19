@@ -310,9 +310,10 @@ footer ul li a {
         width: 80%;
         height: auto;
         text-align: center;
-        margin: 0;
+        margin-top: 100px;
         padding: 0;
     }
+
     .footer {
         display: block;
         width: 80%;
@@ -328,7 +329,7 @@ footer ul li a {
         text-align: center;
         margin: 0;
         padding: 0;
-}
+    }
     .important {
         display: block;
         width: 80%;
@@ -423,9 +424,7 @@ footer ul li a {
     .graduated {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
         width: 50%;
-        height: auto;
         text-align: center;
         margin: 10px;
         padding: 10px;
