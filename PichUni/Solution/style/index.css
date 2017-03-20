@@ -11,7 +11,7 @@
 main {
     background: url('../img/background_main-header_2.jpg') center no-repeat;
     background-size: cover;
-    min-height: 500px;
+    min-height: 444px;
     text-align: center;
 }
 
@@ -20,7 +20,7 @@ main div p{
     color:#fff;
     font-size:2em;
     width:60%;
-    line-height:2em;
+    line-height:3em;
     padding-top:5%;
     margin:0 auto;
     text-align:center;
@@ -39,7 +39,7 @@ main .apply {
     outline: none;
     height: 40px;
     display: block;
-    margin: 50px auto;
+    margin: 0 auto;
     width: 250px;
 }
 

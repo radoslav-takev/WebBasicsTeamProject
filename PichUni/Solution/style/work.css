@@ -11,7 +11,7 @@
 main {
     background: url('../img/background_main-header_2.jpg') center no-repeat;
     background-size: cover;
-    min-height: 500px;
+    min-height: 444px;
     text-align: center;
 }
 section {
@@ -19,9 +19,9 @@ section {
     border-radius: 5%;
     background-color: #E8E8E8;
     width: 40%;
-    height: 400px;
+    height: 350px;
     display: inline-block;
-    margin: 10px 5px 5px 5px;
+    margin: 10px 10px 10px 10px;
     position: relative;
 }
 main h2{

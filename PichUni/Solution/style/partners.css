@@ -11,7 +11,7 @@
 main {
     background: url('../img/background_main-header_2.jpg') center no-repeat;
     background-size: cover;
-    min-height: 500px;
+    min-height: 444px;
     text-align: center;
 }
 main  h1{
@@ -28,7 +28,7 @@ section{
 }
 section img{
     width: 300px;
-    height: 300px;
+    height: 280px;
     margin: 20px 20px 20px;
     border: 3px solid #E1464B;
     border-radius: 10px;
