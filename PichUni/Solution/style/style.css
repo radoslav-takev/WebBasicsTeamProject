@@ -57,7 +57,7 @@ body {
     display: none;
     text-align: center;
     width: 45px;
-    height: 37px;
+    height: 38px;
 }
 
 .navigation {
@@ -249,7 +249,7 @@ ul.social li {
 
     .site-navigation .fa-bars {
         display: inline-block;
-        margin-top: 20px;
+        margin-top: 25px;
         margin-left: 20px;
     }
 
