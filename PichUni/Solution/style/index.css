@@ -71,6 +71,10 @@ main a {
         margin:5px 0px;
     }
 
+    main div p {
+        line-height: 2em;
+    }
+
     .social{
         margin:5px 0px;
     }
@@ -83,9 +87,7 @@ main a {
 
 @media all and (max-width: 600px){
 
-    main div p {
-        line-height: 2em;
-    }
+
 
     header{
         display: block;
