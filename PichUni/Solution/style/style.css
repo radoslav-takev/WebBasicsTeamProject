@@ -69,7 +69,8 @@ body {
     margin-top: 20px;
 }
 
-.site-header button {
+.site-header .apply {
+    height: 38px;
     display: inline-block;
     vertical-align: middle;
     margin-top: 25px;
@@ -80,12 +81,13 @@ body {
     font-weight: bold;
     font-family: 'Noto Sans', sans-serif;
     border-radius: 10px;
-    padding: 5px 7px;
+    padding: 8px 7px;
     outline: none;
     margin-left: 5px;
+    text-decoration: none;
 }
 
-.site-header button:hover {
+.site-header .apply:hover {
     color: #E1464B;
     background: none;
     cursor: pointer;
@@ -161,7 +163,11 @@ footer div > p {
     width:100%;
 }
 
-#facebook{
+ul.social li {
+    display: inline-block;
+}
+
+#facebook a{
     height: 40px;
     width: 40px;
     background: url("images/mini-social-icons.png") -3px -3px;
@@ -171,7 +177,7 @@ footer div > p {
     margin-left:5px;
 }
 
-#google{
+#google a{
     height: 40px;
     width: 40px;
     background: url("images/mini-social-icons.png") -41px -2px;
@@ -181,7 +187,7 @@ footer div > p {
     margin-left:5px;
 }
 
-#twitter{
+#twitter a{
     height: 40px;
     width: 40px;
     background: url("images/mini-social-icons.png") -86px -2px;
@@ -191,21 +197,21 @@ footer div > p {
     margin-left:5px;
 }
 
-#facebook:hover{
+#facebook a:hover{
     height: 40px;
     width: 40px;
     background: url("images/mini-social-icons.png") -3px 39px;
     cursor: pointer;
 }
 
-#google:hover{
+#google a:hover{
     height: 40px;
     width: 40px;
     background: url("images/mini-social-icons.png") -42px 40px;
     cursor: pointer;
 }
 
-#twitter:hover{
+#twitter a:hover{
     height: 40px;
     width: 40px;
     background: url("images/mini-social-icons.png") -85px 40px;

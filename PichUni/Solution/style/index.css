@@ -27,7 +27,7 @@ main div p{
     font-weight: 700;
 }
 
-main button {
+main .apply {
     background-color: #E1464B;
     border: 1px solid #E1464B;
     color: #D7E8E8;
@@ -37,10 +37,13 @@ main button {
     border-radius: 10px;
     padding: 5px 10px;
     outline: none;
-    margin-top: 50px;
+    height: 40px;
+    display: block;
+    margin: 50px auto;
+    width: 250px;
 }
 
-main button:hover {
+main .apply:hover {
     color: #E1464B;
     background: #E8E8E8;
     border: 1px solid #E8E8E8;
