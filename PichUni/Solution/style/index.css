@@ -83,7 +83,9 @@ main a {
 
 @media all and (max-width: 600px){
 
-
+    main div p {
+        line-height: 2em;
+    }
     header{
         display: block;
     }
